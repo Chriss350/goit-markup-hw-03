@@ -26,6 +26,10 @@ body {
   padding: 94px 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
 .content {
   @import "components/slider";
   @import "components/advantages";

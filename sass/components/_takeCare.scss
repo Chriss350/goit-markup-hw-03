@@ -13,12 +13,11 @@
   }
 
   .items {
-    display: inline-block;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 30px;
     .item {
-      display: inline-block;
-      margin: 0 15px;
+      list-style: none;
     }
   }
 }
