@@ -2,7 +2,8 @@
   position: relative;
   height: 600px;
   z-index: 3;
-  background: url("../images/ImgsliderImg.jpg");
+  // background: url("../images/ImgsliderImg.jpg");
+  background: #2f303a;
   &:after {
     content: "";
     background: rgba(47, 48, 58, 0.4);
