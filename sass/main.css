@@ -89,7 +89,7 @@ body {
 
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .section {
@@ -486,6 +486,13 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #fff;
+}
+.footer .footerContent .contact .address .items .item a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer .footerContent .contact .address .items .item a:hover, .footer .footerContent .contact .address .items .item a:focus {
+  color: #2196f3;
 }
 .footer .footerContent .socialMedia {
   padding-top: 72px;
